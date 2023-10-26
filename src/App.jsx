@@ -1,4 +1,13 @@
-<div>
-    <h1> hei how are you</h1>
-    <h1> hei how are you</h1>
-</div>
+import './Pages/Dashboard'
+import Dashboard from './Pages/Dashboard'
+import Login from './Pages/Login'
+
+
+export default function App() {
+  return (
+    <div>
+      <Dashboard/>
+      <Login/>
+    </div>
+  )
+}
